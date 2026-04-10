@@ -1,0 +1,82 @@
+data:
+  source: "huggingface"                          # "huggingface" or "csv"
+  hf_dataset: "Tobi-Bueck/customer-support-tickets"
+  path: "data_source/customer_support_tickets.csv"  # used only when source: csv
+  text_columns:
+    - "subject"
+    - "body"
+  metadata_columns:
+    priority: "priority"
+    ticket_type: "type"
+    product: "queue"
+    channel: "language"
+
+preprocessing:
+  combine_separator: " "
+  domain_keywords:
+    - VPN
+    - DNS
+    - SSO
+    - MFA
+    - 2FA
+    - API
+    - SSL
+    - TLS
+    - LDAP
+    - OAuth
+    - SLA
+
+embeddings:
+  provider: "sentence-transformers"             # "voyage" or "sentence-transformers"
+  voyage_model: "voyage-3"
+  model: "all-mpnet-base-v2"    # used only when provider: sentence-transformers
+  cache_path: "outputs/embeddings_cache.npy"
+  batch_size: 128                # voyage: max 128 per request; sbert GPU: 256
+  # device: "cpu"               # sentence-transformers only; omit to auto-detect
+  tag_enrichment:
+    enabled: true
+    column: "tag_1"
+    cache_path: "outputs/tag_embeddings_cache.npy"
+    weight: 0.3              # tag dims are scaled to 30% of text embedding magnitude
+
+imputation:
+  enabled: true
+  confidence_threshold: 0.7      # default threshold; overridable per column
+  low_confidence_fill: "Unknown" # sentinel for below-threshold rows; keeps one-hot encoding complete
+  max_features: 15000
+  ngram_range: [1, 2]
+  max_iter: 1000
+  C: 1.0
+  min_class_size: 5              # classes with fewer samples are excluded from training
+  columns:
+    type:
+      enabled: true
+      threshold: 0.7
+
+operational_features:
+  priority_map:
+    very_low: 0
+    low: 1
+    medium: 2
+    high: 3
+    critical: 4
+  product_encoding: "frequency"
+  normalize: true
+
+fusion:
+  alpha: 0.7
+
+clustering:
+  kmeans:
+    k: 8
+    init: "k-means++"
+    n_init: 10
+    random_state: 42
+  hdbscan:
+    min_cluster_size: 15
+    min_samples: 5
+    metric: "euclidean"
+
+evaluation:
+  top_n_keywords: 10
+  n_sample_tickets: 3

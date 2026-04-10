@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+
+# Large generated outputs
+outputs/embeddings_cache.npy
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Claude Code
+CLAUDE.md
+.claude/
+docs/superpowers/
+
+# OS
+.DS_Store
+Thumbs.db
+
+outputs/tag_embeddings_cache.npy
