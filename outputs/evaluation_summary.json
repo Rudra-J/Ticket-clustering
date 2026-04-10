@@ -1,0 +1,4517 @@
+{
+  "concatenation_kmeans": {
+    "silhouette": 0.0913619846468791,
+    "n_clusters": 8,
+    "noise_count": 0,
+    "cluster_sizes": {
+      "0": 408,
+      "1": 1656,
+      "2": 1665,
+      "3": 1688,
+      "4": 1706,
+      "5": 455,
+      "6": 426,
+      "7": 465
+    },
+    "cluster_keywords": {
+      "0": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "data",
+        "account",
+        "software"
+      ],
+      "1": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "account",
+        "data",
+        "software"
+      ],
+      "2": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "software",
+        "account",
+        "data"
+      ],
+      "3": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "data",
+        "account",
+        "software"
+      ],
+      "4": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "assist",
+        "having",
+        "problem",
+        "account",
+        "software",
+        "data"
+      ],
+      "5": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "data",
+        "account",
+        "error"
+      ],
+      "6": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "problem",
+        "account",
+        "software",
+        "data"
+      ],
+      "7": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "software",
+        "account",
+        "data"
+      ]
+    },
+    "business": {
+      "0": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "1": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "assist"
+        ]
+      },
+      "2": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "3": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "4": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "assist"
+        ]
+      },
+      "5": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "6": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "7": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      }
+    }
+  },
+  "concatenation_hdbscan": {
+    "silhouette": 0.20874674207781954,
+    "n_clusters": 22,
+    "noise_count": 2241,
+    "cluster_sizes": {
+      "-1": 2241,
+      "0": 334,
+      "1": 359,
+      "2": 336,
+      "3": 347,
+      "4": 325,
+      "5": 361,
+      "6": 364,
+      "7": 288,
+      "8": 275,
+      "9": 317,
+      "10": 288,
+      "11": 349,
+      "12": 322,
+      "13": 325,
+      "14": 220,
+      "15": 25,
+      "16": 346,
+      "17": 253,
+      "18": 334,
+      "19": 268,
+      "20": 168,
+      "21": 24
+    },
+    "cluster_keywords": {
+      "0": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "account",
+        "software",
+        "data"
+      ],
+      "1": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "assist",
+        "having",
+        "account",
+        "problem",
+        "software",
+        "data"
+      ],
+      "2": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "assist",
+        "having",
+        "problem",
+        "data",
+        "software",
+        "account"
+      ],
+      "3": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "problem",
+        "software",
+        "account",
+        "bug"
+      ],
+      "4": [
+        "product",
+        "issue",
+        "purchased",
+        "ve",
+        "having",
+        "assist",
+        "problem",
+        "data",
+        "account",
+        "software"
+      ],
+      "5": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "ve",
+        "assist",
+        "problem",
+        "data",
+        "account",
+        "error"
+      ],
+      "6": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "data",
+        "software",
+        "account"
+      ],
+      "7": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "assist",
+        "having",
+        "problem",
+        "account",
+        "steps",
+        "software"
+      ],
+      "8": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "problem",
+        "assist",
+        "account",
+        "data",
+        "software"
+      ],
+      "9": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "assist",
+        "account",
+        "having",
+        "problem",
+        "data",
+        "software"
+      ],
+      "10": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "ve",
+        "account",
+        "problem",
+        "software",
+        "data"
+      ],
+      "11": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "ve",
+        "assist",
+        "problem",
+        "data",
+        "software",
+        "account"
+      ],
+      "12": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "ve",
+        "assist",
+        "account",
+        "problem",
+        "error",
+        "software"
+      ],
+      "13": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "problem",
+        "account",
+        "software",
+        "error"
+      ],
+      "14": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "account",
+        "support",
+        "software"
+      ],
+      "15": [
+        "connecting",
+        "networks",
+        "network",
+        "set",
+        "troubleshoot",
+        "connect",
+        "wi",
+        "fi",
+        "trouble",
+        "devices"
+      ],
+      "16": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "account",
+        "software",
+        "resolve"
+      ],
+      "17": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "data",
+        "account",
+        "support"
+      ],
+      "18": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "device",
+        "software",
+        "account"
+      ],
+      "19": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "account",
+        "data",
+        "error"
+      ],
+      "20": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "software",
+        "compatibility",
+        "hardware"
+      ],
+      "21": [
+        "data",
+        "files",
+        "deleted",
+        "lost",
+        "way",
+        "recover",
+        "encountered",
+        "disappeared",
+        "documents",
+        "retrieve"
+      ]
+    },
+    "business": {
+      "0": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "assist"
+        ]
+      },
+      "1": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "assist"
+        ]
+      },
+      "2": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "assist"
+        ]
+      },
+      "3": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "4": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "ve",
+          "having"
+        ]
+      },
+      "5": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "ve"
+        ]
+      },
+      "6": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "7": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "assist"
+        ]
+      },
+      "8": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "9": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "assist"
+        ]
+      },
+      "10": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "11": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "ve"
+        ]
+      },
+      "12": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "ve"
+        ]
+      },
+      "13": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "14": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "15": {
+        "category": "Network Connectivity",
+        "team": "Network Operations",
+        "automation": false,
+        "confidence": 0.29,
+        "top_keywords": [
+          "connecting",
+          "networks",
+          "network",
+          "set",
+          "troubleshoot"
+        ]
+      },
+      "16": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "17": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "assist"
+        ]
+      },
+      "18": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "19": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "20": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "21": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "data",
+          "files",
+          "deleted",
+          "lost",
+          "way"
+        ]
+      }
+    }
+  },
+  "weighted_kmeans": {
+    "silhouette": 0.08926209394415238,
+    "n_clusters": 8,
+    "noise_count": 0,
+    "cluster_sizes": {
+      "0": 786,
+      "1": 608,
+      "2": 914,
+      "3": 873,
+      "4": 1637,
+      "5": 773,
+      "6": 821,
+      "7": 2057
+    },
+    "cluster_keywords": {
+      "0": [
+        "compatibility",
+        "product",
+        "peripheral",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "help"
+      ],
+      "1": [
+        "battery",
+        "life",
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "decrease",
+        "sudden",
+        "longer"
+      ],
+      "2": [
+        "network",
+        "product",
+        "problem",
+        "connecting",
+        "purchased",
+        "networks",
+        "issue",
+        "troubleshoot",
+        "ve",
+        "connect"
+      ],
+      "3": [
+        "account",
+        "access",
+        "password",
+        "product",
+        "purchased",
+        "login",
+        "ve",
+        "issue",
+        "regain",
+        "credentials"
+      ],
+      "4": [
+        "product",
+        "issue",
+        "purchased",
+        "hardware",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "support",
+        "display"
+      ],
+      "5": [
+        "bug",
+        "software",
+        "product",
+        "purchased",
+        "issue",
+        "application",
+        "app",
+        "specific",
+        "ve",
+        "noticed"
+      ],
+      "6": [
+        "data",
+        "loss",
+        "product",
+        "deleted",
+        "files",
+        "purchased",
+        "lost",
+        "way",
+        "ve",
+        "recover"
+      ],
+      "7": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "request",
+        "ve",
+        "problem",
+        "payment",
+        "message"
+      ]
+    },
+    "business": {
+      "0": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "compatibility",
+          "product",
+          "peripheral",
+          "purchased",
+          "issue"
+        ]
+      },
+      "1": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "battery",
+          "life",
+          "product",
+          "purchased",
+          "issue"
+        ]
+      },
+      "2": {
+        "category": "Network Connectivity",
+        "team": "Network Operations",
+        "automation": false,
+        "confidence": 0.29,
+        "top_keywords": [
+          "network",
+          "product",
+          "problem",
+          "connecting",
+          "purchased"
+        ]
+      },
+      "3": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.43,
+        "top_keywords": [
+          "account",
+          "access",
+          "password",
+          "product",
+          "purchased"
+        ]
+      },
+      "4": {
+        "category": "Hardware & Peripherals",
+        "team": "Hardware Support",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "hardware",
+          "assist"
+        ]
+      },
+      "5": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.43,
+        "top_keywords": [
+          "bug",
+          "software",
+          "product",
+          "purchased",
+          "issue"
+        ]
+      },
+      "6": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "data",
+          "loss",
+          "product",
+          "deleted",
+          "files"
+        ]
+      },
+      "7": {
+        "category": "Billing & Finance",
+        "team": "Finance Support",
+        "automation": false,
+        "confidence": 0.17,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      }
+    }
+  },
+  "weighted_hdbscan": {
+    "silhouette": 0.16986870152350889,
+    "n_clusters": 29,
+    "noise_count": 6418,
+    "cluster_sizes": {
+      "-1": 6418,
+      "0": 80,
+      "1": 265,
+      "2": 217,
+      "3": 31,
+      "4": 104,
+      "5": 16,
+      "6": 19,
+      "7": 81,
+      "8": 42,
+      "9": 209,
+      "10": 46,
+      "11": 17,
+      "12": 37,
+      "13": 145,
+      "14": 40,
+      "15": 62,
+      "16": 20,
+      "17": 41,
+      "18": 31,
+      "19": 37,
+      "20": 51,
+      "21": 20,
+      "22": 64,
+      "23": 36,
+      "24": 45,
+      "25": 23,
+      "26": 24,
+      "27": 15,
+      "28": 233
+    },
+    "cluster_keywords": {
+      "0": [
+        "flickering",
+        "screen",
+        "hardware",
+        "use",
+        "unable",
+        "problem",
+        "product",
+        "purchased",
+        "ve",
+        "issue"
+      ],
+      "1": [
+        "battery",
+        "life",
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "noticed",
+        "multiple"
+      ],
+      "2": [
+        "connecting",
+        "networks",
+        "wi",
+        "fi",
+        "detect",
+        "trouble",
+        "home",
+        "devices",
+        "doesn",
+        "network"
+      ],
+      "3": [
+        "charger",
+        "charging",
+        "came",
+        "original",
+        "properly",
+        "using",
+        "product",
+        "purchased",
+        "issue",
+        "having"
+      ],
+      "4": [
+        "display",
+        "issue",
+        "product",
+        "purchased",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "customer",
+        "times"
+      ],
+      "5": [
+        "desired",
+        "guide",
+        "perform",
+        "action",
+        "option",
+        "unable",
+        "steps",
+        "product",
+        "purchased",
+        "bug"
+      ],
+      "6": [
+        "files",
+        "deleted",
+        "battery",
+        "life",
+        "retrieve",
+        "documents",
+        "data",
+        "encountered",
+        "disappeared",
+        "ve"
+      ],
+      "7": [
+        "retrieve",
+        "encountered",
+        "documents",
+        "disappeared",
+        "files",
+        "loss",
+        "guide",
+        "data",
+        "ve",
+        "product"
+      ],
+      "8": [
+        "deleted",
+        "accidentally",
+        "way",
+        "recover",
+        "important",
+        "urgently",
+        "files",
+        "data",
+        "need",
+        "ve"
+      ],
+      "9": [
+        "network",
+        "problem",
+        "product",
+        "internet",
+        "connection",
+        "purchased",
+        "stable",
+        "establish",
+        "issue",
+        "disconnecting"
+      ],
+      "10": [
+        "access",
+        "account",
+        "issue",
+        "product",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "thank",
+        "productivity"
+      ],
+      "11": [
+        "app",
+        "unexpected",
+        "causing",
+        "errors",
+        "resolve",
+        "bug",
+        "data",
+        "loss",
+        "noticed",
+        "software"
+      ],
+      "12": [
+        "account",
+        "locked",
+        "unlock",
+        "logging",
+        "issues",
+        "says",
+        "facing",
+        "product",
+        "purchased",
+        "log"
+      ],
+      "13": [
+        "access",
+        "account",
+        "regain",
+        "displaying",
+        "credentials",
+        "invalid",
+        "login",
+        "correct",
+        "keeps",
+        "information"
+      ],
+      "14": [
+        "password",
+        "account",
+        "forgotten",
+        "recover",
+        "reset",
+        "working",
+        "option",
+        "ve",
+        "product",
+        "purchased"
+      ],
+      "15": [
+        "message",
+        "error",
+        "peculiar",
+        "popping",
+        "mean",
+        "does",
+        "screen",
+        "says",
+        "noticed",
+        "product"
+      ],
+      "16": [
+        "causing",
+        "app",
+        "unexpected",
+        "errors",
+        "loss",
+        "bug",
+        "software",
+        "data",
+        "resolve",
+        "noticed"
+      ],
+      "17": [
+        "fixes",
+        "crashes",
+        "encountering",
+        "updates",
+        "application",
+        "bug",
+        "try",
+        "specific",
+        "available",
+        "software"
+      ],
+      "18": [
+        "refund",
+        "request",
+        "issue",
+        "assist",
+        "having",
+        "product",
+        "purchased",
+        "ve",
+        "soon",
+        "possible"
+      ],
+      "19": [
+        "payment",
+        "issue",
+        "product",
+        "purchased",
+        "having",
+        "assist",
+        "steps",
+        "desired",
+        "guide",
+        "perform"
+      ],
+      "20": [
+        "installation",
+        "support",
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "persists",
+        "user"
+      ],
+      "21": [
+        "concerned",
+        "safe",
+        "security",
+        "ensure",
+        "like",
+        "product",
+        "data",
+        "purchased",
+        "assist",
+        "having"
+      ],
+      "22": [
+        "loss",
+        "data",
+        "product",
+        "issue",
+        "assist",
+        "purchased",
+        "having",
+        "ve",
+        "problem",
+        "device"
+      ],
+      "23": [
+        "bug",
+        "software",
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "help",
+        "ve",
+        "didn"
+      ],
+      "24": [
+        "cancellation",
+        "request",
+        "issue",
+        "product",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "times",
+        "unexpectedly"
+      ],
+      "25": [
+        "setup",
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "thank",
+        "performed",
+        "hoping"
+      ],
+      "26": [
+        "delivery",
+        "problem",
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "help",
+        "having",
+        "started",
+        "afterward"
+      ],
+      "27": [
+        "installation",
+        "started",
+        "update",
+        "support",
+        "happening",
+        "product",
+        "occurring",
+        "afterward",
+        "recent",
+        "firmware"
+      ],
+      "28": [
+        "issue",
+        "compatibility",
+        "peripheral",
+        "product",
+        "purchased",
+        "assist",
+        "having",
+        "hardware",
+        "ve",
+        "update"
+      ]
+    },
+    "business": {
+      "0": {
+        "category": "Hardware & Peripherals",
+        "team": "Hardware Support",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "flickering",
+          "screen",
+          "hardware",
+          "use",
+          "unable"
+        ]
+      },
+      "1": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "battery",
+          "life",
+          "product",
+          "purchased",
+          "issue"
+        ]
+      },
+      "2": {
+        "category": "Network Connectivity",
+        "team": "Network Operations",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "connecting",
+          "networks",
+          "wi",
+          "fi",
+          "detect"
+        ]
+      },
+      "3": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "charger",
+          "charging",
+          "came",
+          "original",
+          "properly"
+        ]
+      },
+      "4": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "display",
+          "issue",
+          "product",
+          "purchased",
+          "assist"
+        ]
+      },
+      "5": {
+        "category": "Performance & Bugs",
+        "team": "Application Support",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "desired",
+          "guide",
+          "perform",
+          "action",
+          "option"
+        ]
+      },
+      "6": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "files",
+          "deleted",
+          "battery",
+          "life",
+          "retrieve"
+        ]
+      },
+      "7": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "retrieve",
+          "encountered",
+          "documents",
+          "disappeared",
+          "files"
+        ]
+      },
+      "8": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "deleted",
+          "accidentally",
+          "way",
+          "recover",
+          "important"
+        ]
+      },
+      "9": {
+        "category": "Network Connectivity",
+        "team": "Network Operations",
+        "automation": false,
+        "confidence": 0.43,
+        "top_keywords": [
+          "network",
+          "problem",
+          "product",
+          "internet",
+          "connection"
+        ]
+      },
+      "10": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "access",
+          "account",
+          "issue",
+          "product",
+          "purchased"
+        ]
+      },
+      "11": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.29,
+        "top_keywords": [
+          "app",
+          "unexpected",
+          "causing",
+          "errors",
+          "resolve"
+        ]
+      },
+      "12": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.43,
+        "top_keywords": [
+          "account",
+          "locked",
+          "unlock",
+          "logging",
+          "issues"
+        ]
+      },
+      "13": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.29,
+        "top_keywords": [
+          "access",
+          "account",
+          "regain",
+          "displaying",
+          "credentials"
+        ]
+      },
+      "14": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.43,
+        "top_keywords": [
+          "password",
+          "account",
+          "forgotten",
+          "recover",
+          "reset"
+        ]
+      },
+      "15": {
+        "category": "Performance & Bugs",
+        "team": "Application Support",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "message",
+          "error",
+          "peculiar",
+          "popping",
+          "mean"
+        ]
+      },
+      "16": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.29,
+        "top_keywords": [
+          "causing",
+          "app",
+          "unexpected",
+          "errors",
+          "loss"
+        ]
+      },
+      "17": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.29,
+        "top_keywords": [
+          "fixes",
+          "crashes",
+          "encountering",
+          "updates",
+          "application"
+        ]
+      },
+      "18": {
+        "category": "Billing & Finance",
+        "team": "Finance Support",
+        "automation": false,
+        "confidence": 0.17,
+        "top_keywords": [
+          "refund",
+          "request",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "19": {
+        "category": "Billing & Finance",
+        "team": "Finance Support",
+        "automation": false,
+        "confidence": 0.17,
+        "top_keywords": [
+          "payment",
+          "issue",
+          "product",
+          "purchased",
+          "having"
+        ]
+      },
+      "20": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "installation",
+          "support",
+          "product",
+          "issue",
+          "purchased"
+        ]
+      },
+      "21": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "concerned",
+          "safe",
+          "security",
+          "ensure",
+          "like"
+        ]
+      },
+      "22": {
+        "category": "Hardware & Peripherals",
+        "team": "Hardware Support",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "loss",
+          "data",
+          "product",
+          "issue",
+          "assist"
+        ]
+      },
+      "23": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "bug",
+          "software",
+          "product",
+          "issue",
+          "purchased"
+        ]
+      },
+      "24": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "cancellation",
+          "request",
+          "issue",
+          "product",
+          "purchased"
+        ]
+      },
+      "25": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "setup",
+          "product",
+          "issue",
+          "purchased",
+          "having"
+        ]
+      },
+      "26": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "delivery",
+          "problem",
+          "product",
+          "issue",
+          "purchased"
+        ]
+      },
+      "27": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "installation",
+          "started",
+          "update",
+          "support",
+          "happening"
+        ]
+      },
+      "28": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "issue",
+          "compatibility",
+          "peripheral",
+          "product",
+          "purchased"
+        ]
+      }
+    }
+  },
+  "late_kmeans": {
+    "silhouette": -0.007415927015244961,
+    "n_clusters": 8,
+    "noise_count": 0,
+    "cluster_sizes": {
+      "0": 1243,
+      "1": 1688,
+      "2": 1665,
+      "3": 455,
+      "4": 1706,
+      "5": 465,
+      "6": 413,
+      "7": 834
+    },
+    "cluster_keywords": {
+      "0": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "data",
+        "account",
+        "software"
+      ],
+      "1": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "data",
+        "account",
+        "software"
+      ],
+      "2": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "software",
+        "account",
+        "data"
+      ],
+      "3": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "data",
+        "account",
+        "error"
+      ],
+      "4": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "assist",
+        "having",
+        "problem",
+        "account",
+        "software",
+        "data"
+      ],
+      "5": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "software",
+        "account",
+        "data"
+      ],
+      "6": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "problem",
+        "account",
+        "software",
+        "support"
+      ],
+      "7": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "ve",
+        "having",
+        "problem",
+        "account",
+        "data",
+        "software"
+      ]
+    },
+    "business": {
+      "0": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "assist"
+        ]
+      },
+      "1": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "2": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "3": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "4": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "assist"
+        ]
+      },
+      "5": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "6": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "7": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "ve"
+        ]
+      }
+    }
+  },
+  "late_hdbscan": {
+    "silhouette": -0.06353392452001572,
+    "n_clusters": 96,
+    "noise_count": 163,
+    "cluster_sizes": {
+      "-1": 163,
+      "0": 90,
+      "1": 105,
+      "2": 112,
+      "3": 108,
+      "4": 111,
+      "5": 108,
+      "6": 125,
+      "7": 108,
+      "8": 106,
+      "9": 112,
+      "10": 115,
+      "11": 101,
+      "12": 95,
+      "13": 103,
+      "14": 101,
+      "15": 89,
+      "16": 85,
+      "17": 101,
+      "18": 108,
+      "19": 97,
+      "20": 128,
+      "21": 109,
+      "22": 95,
+      "23": 102,
+      "24": 112,
+      "25": 109,
+      "26": 96,
+      "27": 116,
+      "28": 99,
+      "29": 109,
+      "30": 100,
+      "31": 33,
+      "32": 88,
+      "33": 114,
+      "34": 101,
+      "35": 99,
+      "36": 82,
+      "37": 108,
+      "38": 112,
+      "39": 86,
+      "40": 96,
+      "41": 88,
+      "42": 119,
+      "43": 216,
+      "44": 111,
+      "45": 115,
+      "46": 217,
+      "47": 91,
+      "48": 199,
+      "49": 103,
+      "50": 95,
+      "51": 119,
+      "52": 191,
+      "53": 115,
+      "54": 128,
+      "55": 108,
+      "56": 108,
+      "57": 128,
+      "58": 108,
+      "59": 93,
+      "60": 146,
+      "61": 122,
+      "62": 99,
+      "63": 108,
+      "65": 28,
+      "66": 37,
+      "67": 49,
+      "68": 47,
+      "69": 47,
+      "70": 19,
+      "71": 92,
+      "72": 108,
+      "75": 61,
+      "76": 37,
+      "77": 26,
+      "78": 37,
+      "79": 62,
+      "80": 17,
+      "82": 17,
+      "83": 37,
+      "84": 41,
+      "85": 28,
+      "86": 17,
+      "87": 21,
+      "88": 17,
+      "89": 26,
+      "90": 48,
+      "92": 67,
+      "93": 27,
+      "94": 22,
+      "95": 15,
+      "96": 19,
+      "97": 72,
+      "98": 16,
+      "99": 20,
+      "100": 28
+    },
+    "cluster_keywords": {
+      "0": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "ve",
+        "having",
+        "problem",
+        "support",
+        "error",
+        "data"
+      ],
+      "1": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "data",
+        "account",
+        "device"
+      ],
+      "2": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "assist",
+        "having",
+        "account",
+        "problem",
+        "data",
+        "software"
+      ],
+      "3": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "software",
+        "support",
+        "productivity"
+      ],
+      "4": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "ve",
+        "data",
+        "software",
+        "problem",
+        "account"
+      ],
+      "5": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "error",
+        "account",
+        "problem",
+        "message"
+      ],
+      "6": [
+        "product",
+        "issue",
+        "purchased",
+        "ve",
+        "assist",
+        "problem",
+        "having",
+        "support",
+        "steps",
+        "resolve"
+      ],
+      "7": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "ve",
+        "account",
+        "problem",
+        "data",
+        "software"
+      ],
+      "8": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "ve",
+        "having",
+        "problem",
+        "data",
+        "account",
+        "request"
+      ],
+      "9": [
+        "product",
+        "issue",
+        "purchased",
+        "ve",
+        "assist",
+        "having",
+        "software",
+        "problem",
+        "steps",
+        "data"
+      ],
+      "10": [
+        "product",
+        "issue",
+        "purchased",
+        "ve",
+        "having",
+        "assist",
+        "problem",
+        "data",
+        "software",
+        "steps"
+      ],
+      "11": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "problem",
+        "software",
+        "data",
+        "steps"
+      ],
+      "12": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "account",
+        "software",
+        "available"
+      ],
+      "13": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "support",
+        "message",
+        "account"
+      ],
+      "14": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "request",
+        "support",
+        "software"
+      ],
+      "15": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "data",
+        "software",
+        "account"
+      ],
+      "16": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "ve",
+        "having",
+        "problem",
+        "data",
+        "software",
+        "hardware"
+      ],
+      "17": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "ve",
+        "having",
+        "data",
+        "problem",
+        "bug",
+        "unable"
+      ],
+      "18": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "ve",
+        "having",
+        "problem",
+        "account",
+        "data",
+        "error"
+      ],
+      "19": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "account",
+        "assist",
+        "having",
+        "problem",
+        "software",
+        "hardware"
+      ],
+      "20": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "data",
+        "hardware",
+        "software"
+      ],
+      "21": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "error",
+        "help",
+        "battery"
+      ],
+      "22": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "problem",
+        "ve",
+        "data",
+        "account",
+        "thank"
+      ],
+      "23": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "account",
+        "assist",
+        "problem",
+        "support",
+        "software"
+      ],
+      "24": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "software",
+        "data",
+        "life"
+      ],
+      "25": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "assist",
+        "having",
+        "problem",
+        "data",
+        "account",
+        "software"
+      ],
+      "26": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "account",
+        "order",
+        "data",
+        "problem"
+      ],
+      "27": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "message",
+        "times",
+        "multiple"
+      ],
+      "28": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "ve",
+        "assist",
+        "problem",
+        "account",
+        "data",
+        "error"
+      ],
+      "29": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "ve",
+        "problem",
+        "software",
+        "data",
+        "network"
+      ],
+      "30": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "available",
+        "data",
+        "software"
+      ],
+      "31": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "assist",
+        "problem",
+        "data",
+        "software",
+        "ve",
+        "specific"
+      ],
+      "32": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "data",
+        "didn",
+        "resolve"
+      ],
+      "33": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "data",
+        "account",
+        "software"
+      ],
+      "34": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "data",
+        "problem",
+        "hardware",
+        "using"
+      ],
+      "35": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "data",
+        "problem",
+        "software",
+        "account"
+      ],
+      "36": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "assist",
+        "having",
+        "problem",
+        "software",
+        "bug",
+        "account"
+      ],
+      "37": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "ve",
+        "software",
+        "account",
+        "support",
+        "problem"
+      ],
+      "38": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "software",
+        "error",
+        "device"
+      ],
+      "39": [
+        "product",
+        "purchased",
+        "issue",
+        "problem",
+        "assist",
+        "having",
+        "ve",
+        "hardware",
+        "software",
+        "data"
+      ],
+      "40": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "help",
+        "problem",
+        "software",
+        "tried"
+      ],
+      "41": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "data",
+        "account",
+        "battery",
+        "life"
+      ],
+      "42": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "message",
+        "error",
+        "related",
+        "update"
+      ],
+      "43": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "problem",
+        "account",
+        "data",
+        "software"
+      ],
+      "44": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "problem",
+        "having",
+        "assist",
+        "software",
+        "data",
+        "help"
+      ],
+      "45": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "data",
+        "account",
+        "software",
+        "related"
+      ],
+      "46": [
+        "product",
+        "issue",
+        "purchased",
+        "ve",
+        "having",
+        "assist",
+        "account",
+        "data",
+        "problem",
+        "error"
+      ],
+      "47": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "steps",
+        "data",
+        "message"
+      ],
+      "48": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "ve",
+        "having",
+        "problem",
+        "account",
+        "data",
+        "error"
+      ],
+      "49": [
+        "product",
+        "issue",
+        "purchased",
+        "ve",
+        "having",
+        "assist",
+        "problem",
+        "error",
+        "steps",
+        "support"
+      ],
+      "50": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "problem",
+        "assist",
+        "having",
+        "error",
+        "help",
+        "message"
+      ],
+      "51": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "software",
+        "data",
+        "steps"
+      ],
+      "52": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "account",
+        "steps",
+        "problem",
+        "request"
+      ],
+      "53": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "data",
+        "software",
+        "started"
+      ],
+      "54": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "problem",
+        "steps",
+        "support",
+        "noticed"
+      ],
+      "55": [
+        "product",
+        "issue",
+        "purchased",
+        "ve",
+        "assist",
+        "having",
+        "problem",
+        "account",
+        "message",
+        "error"
+      ],
+      "56": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "ve",
+        "assist",
+        "account",
+        "problem",
+        "error",
+        "steps"
+      ],
+      "57": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "assist",
+        "problem",
+        "having",
+        "account",
+        "software",
+        "support"
+      ],
+      "58": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "account",
+        "problem",
+        "support",
+        "software"
+      ],
+      "59": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "assist",
+        "having",
+        "problem",
+        "account",
+        "bug",
+        "data"
+      ],
+      "60": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "ve",
+        "data",
+        "problem",
+        "software",
+        "steps"
+      ],
+      "61": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "account",
+        "having",
+        "ve",
+        "data",
+        "problem",
+        "access"
+      ],
+      "62": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "problem",
+        "data",
+        "using",
+        "account"
+      ],
+      "63": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "problem",
+        "account",
+        "software",
+        "support"
+      ],
+      "65": [
+        "issue",
+        "product",
+        "purchased",
+        "having",
+        "assist",
+        "problem",
+        "worried",
+        "repair",
+        "require",
+        "replacement"
+      ],
+      "66": [
+        "product",
+        "purchased",
+        "issue",
+        "data",
+        "ve",
+        "assist",
+        "having",
+        "error",
+        "sorry",
+        "order"
+      ],
+      "67": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "ve",
+        "id",
+        "data",
+        "noticed",
+        "use"
+      ],
+      "68": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "ve",
+        "having",
+        "problem",
+        "resolve",
+        "help",
+        "error"
+      ],
+      "69": [
+        "product",
+        "issue",
+        "purchased",
+        "assist",
+        "having",
+        "steps",
+        "guide",
+        "desired",
+        "ve",
+        "perform"
+      ],
+      "70": [
+        "product",
+        "purchased",
+        "issue",
+        "connecting",
+        "ve",
+        "having",
+        "assist",
+        "recommendation",
+        "support",
+        "resolve"
+      ],
+      "71": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "assist",
+        "ve",
+        "software",
+        "problem",
+        "hardware",
+        "account"
+      ],
+      "72": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "problem",
+        "software",
+        "tried",
+        "persists"
+      ],
+      "75": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "having",
+        "assist",
+        "help",
+        "problem",
+        "resolve",
+        "performed"
+      ],
+      "76": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "data",
+        "ve",
+        "problem",
+        "help",
+        "like"
+      ],
+      "77": [
+        "product",
+        "purchased",
+        "account",
+        "issue",
+        "access",
+        "assist",
+        "using",
+        "having",
+        "ve",
+        "problem"
+      ],
+      "78": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "software",
+        "updates",
+        "checked",
+        "having",
+        "available",
+        "assist"
+      ],
+      "79": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "assist",
+        "having",
+        "problem",
+        "account",
+        "need",
+        "software"
+      ],
+      "80": [
+        "product",
+        "purchased",
+        "issue",
+        "updates",
+        "software",
+        "ve",
+        "problem",
+        "unable",
+        "access",
+        "integer"
+      ],
+      "82": [
+        "product",
+        "issue",
+        "purchased",
+        "ve",
+        "data",
+        "lost",
+        "page",
+        "account",
+        "having",
+        "help"
+      ],
+      "83": [
+        "product",
+        "account",
+        "purchased",
+        "issue",
+        "problem",
+        "assist",
+        "having",
+        "ve",
+        "password",
+        "access"
+      ],
+      "84": [
+        "product",
+        "issue",
+        "purchased",
+        "ve",
+        "problem",
+        "having",
+        "assist",
+        "data",
+        "software",
+        "app"
+      ],
+      "85": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "problem",
+        "id",
+        "update",
+        "ve",
+        "started"
+      ],
+      "86": [
+        "product",
+        "issue",
+        "purchased",
+        "cas",
+        "null",
+        "hardware",
+        "ve",
+        "having",
+        "assist",
+        "reset"
+      ],
+      "87": [
+        "product",
+        "purchased",
+        "issue",
+        "software",
+        "having",
+        "bug",
+        "assist",
+        "thank",
+        "ll",
+        "problem"
+      ],
+      "88": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "steps",
+        "thanks",
+        "ve",
+        "refund",
+        "problem"
+      ],
+      "89": [
+        "product",
+        "account",
+        "issue",
+        "purchased",
+        "ve",
+        "assist",
+        "com",
+        "having",
+        "10",
+        "troubleshooting"
+      ],
+      "90": [
+        "product",
+        "issue",
+        "purchased",
+        "ve",
+        "having",
+        "assist",
+        "account",
+        "message",
+        "error",
+        "use"
+      ],
+      "92": [
+        "product",
+        "purchased",
+        "issue",
+        "ve",
+        "problem",
+        "having",
+        "assist",
+        "account",
+        "support",
+        "data"
+      ],
+      "93": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "reported",
+        "assist",
+        "problem",
+        "help",
+        "ve",
+        "forums"
+      ],
+      "94": [
+        "product",
+        "purchased",
+        "issue",
+        "assist",
+        "having",
+        "data",
+        "ve",
+        "loss",
+        "compatibility",
+        "brand"
+      ],
+      "95": [
+        "product",
+        "issue",
+        "purchased",
+        "support",
+        "add",
+        "request",
+        "data",
+        "problem",
+        "ensure",
+        "appears"
+      ],
+      "96": [
+        "product",
+        "files",
+        "issue",
+        "purchased",
+        "problem",
+        "data",
+        "ve",
+        "encountered",
+        "disappeared",
+        "documents"
+      ],
+      "97": [
+        "product",
+        "issue",
+        "purchased",
+        "having",
+        "ve",
+        "assist",
+        "software",
+        "account",
+        "problem",
+        "checked"
+      ],
+      "98": [
+        "product",
+        "purchased",
+        "issue",
+        "lost",
+        "problem",
+        "import",
+        "order",
+        "assist",
+        "reset",
+        "ve"
+      ],
+      "99": [
+        "product",
+        "purchased",
+        "issue",
+        "having",
+        "assist",
+        "version",
+        "ve",
+        "checked",
+        "contact",
+        "compatibility"
+      ],
+      "100": [
+        "product",
+        "purchased",
+        "ve",
+        "issue",
+        "files",
+        "account",
+        "data",
+        "using",
+        "deleted",
+        "problem"
+      ]
+    },
+    "business": {
+      "0": {
+        "category": "Performance & Bugs",
+        "team": "Application Support",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "ve"
+        ]
+      },
+      "1": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "assist"
+        ]
+      },
+      "2": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "assist"
+        ]
+      },
+      "3": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "4": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "5": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "6": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "ve",
+          "assist"
+        ]
+      },
+      "7": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "8": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "ve"
+        ]
+      },
+      "9": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "ve",
+          "assist"
+        ]
+      },
+      "10": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "ve",
+          "having"
+        ]
+      },
+      "11": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "12": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "13": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "14": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "15": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "16": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "ve"
+        ]
+      },
+      "17": {
+        "category": "Performance & Bugs",
+        "team": "Application Support",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "ve"
+        ]
+      },
+      "18": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "ve"
+        ]
+      },
+      "19": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "account"
+        ]
+      },
+      "20": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "21": {
+        "category": "Performance & Bugs",
+        "team": "Application Support",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "22": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "23": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "24": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "assist"
+        ]
+      },
+      "25": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "assist"
+        ]
+      },
+      "26": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "27": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "28": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "ve"
+        ]
+      },
+      "29": {
+        "category": "Network Connectivity",
+        "team": "Network Operations",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "30": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "31": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "assist"
+        ]
+      },
+      "32": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "assist"
+        ]
+      },
+      "33": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "assist"
+        ]
+      },
+      "34": {
+        "category": "Hardware & Peripherals",
+        "team": "Hardware Support",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "35": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "36": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "assist"
+        ]
+      },
+      "37": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "38": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "39": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "problem",
+          "assist"
+        ]
+      },
+      "40": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "41": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "42": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "43": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "44": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "problem"
+        ]
+      },
+      "45": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "46": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "ve",
+          "having"
+        ]
+      },
+      "47": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "48": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "ve"
+        ]
+      },
+      "49": {
+        "category": "Performance & Bugs",
+        "team": "Application Support",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "ve",
+          "having"
+        ]
+      },
+      "50": {
+        "category": "Performance & Bugs",
+        "team": "Application Support",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "problem"
+        ]
+      },
+      "51": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "52": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "53": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "assist"
+        ]
+      },
+      "54": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "55": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "ve",
+          "assist"
+        ]
+      },
+      "56": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "ve"
+        ]
+      },
+      "57": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "assist"
+        ]
+      },
+      "58": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "59": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "assist"
+        ]
+      },
+      "60": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "61": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "account"
+        ]
+      },
+      "62": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "63": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "65": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "issue",
+          "product",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "66": {
+        "category": "Performance & Bugs",
+        "team": "Application Support",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "data",
+          "ve"
+        ]
+      },
+      "67": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "68": {
+        "category": "Performance & Bugs",
+        "team": "Application Support",
+        "automation": false,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "ve"
+        ]
+      },
+      "69": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "assist",
+          "having"
+        ]
+      },
+      "70": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "connecting",
+          "ve"
+        ]
+      },
+      "71": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "assist"
+        ]
+      },
+      "72": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "75": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "having"
+        ]
+      },
+      "76": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "77": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "account",
+          "issue",
+          "access"
+        ]
+      },
+      "78": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "software"
+        ]
+      },
+      "79": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "assist"
+        ]
+      },
+      "80": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "updates",
+          "software"
+        ]
+      },
+      "82": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "ve",
+          "data"
+        ]
+      },
+      "83": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.29,
+        "top_keywords": [
+          "product",
+          "account",
+          "purchased",
+          "issue",
+          "problem"
+        ]
+      },
+      "84": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.29,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "ve",
+          "problem"
+        ]
+      },
+      "85": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "86": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "cas",
+          "null"
+        ]
+      },
+      "87": {
+        "category": "Software & Installation",
+        "team": "Desktop Support",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "software",
+          "having"
+        ]
+      },
+      "88": {
+        "category": "Billing & Finance",
+        "team": "Finance Support",
+        "automation": false,
+        "confidence": 0.17,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "89": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "account",
+          "issue",
+          "purchased",
+          "ve"
+        ]
+      },
+      "90": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "ve",
+          "having"
+        ]
+      },
+      "92": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "ve",
+          "problem"
+        ]
+      },
+      "93": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "reported"
+        ]
+      },
+      "94": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "assist",
+          "having"
+        ]
+      },
+      "95": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "support",
+          "add"
+        ]
+      },
+      "96": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "files",
+          "issue",
+          "purchased",
+          "problem"
+        ]
+      },
+      "97": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "issue",
+          "purchased",
+          "having",
+          "ve"
+        ]
+      },
+      "98": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "lost",
+          "problem"
+        ]
+      },
+      "99": {
+        "category": "Uncategorized",
+        "team": "General Support",
+        "automation": false,
+        "confidence": 0.0,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "issue",
+          "having",
+          "assist"
+        ]
+      },
+      "100": {
+        "category": "Account & Authentication",
+        "team": "Identity & Access Management",
+        "automation": true,
+        "confidence": 0.14,
+        "top_keywords": [
+          "product",
+          "purchased",
+          "ve",
+          "issue",
+          "files"
+        ]
+      }
+    }
+  }
+}
