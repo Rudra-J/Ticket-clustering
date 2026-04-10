@@ -11,7 +11,7 @@ ITSM issue categorization, routing, and failure pattern detection.
 
 **Source:** `Tobi-Bueck/customer-support-tickets` via HuggingFace Hub — 61,765 rows, 16 columns.
 
-**Critical structural finding — two merged sources:**
+**Critical structural finding :**
 
 | | Labeled segment | Unlabeled segment |
 |---|---|---|
