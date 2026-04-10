@@ -169,7 +169,7 @@ dramatically (password resets >> VPN configs).
 noise (-1) rather than forcing them into the nearest cluster. Better reflects real
 ITSM distributions. Non-deterministic — results may vary between runs.
 
-### Why Three Fusion Strategies
+### Why Two Fusion Strategies
 - **Concatenation:** equal signal weight. Best when both signals matter equally.
 - **Weighted (a=0.7):** tunable. Best when you have domain knowledge about signal importance.
 
