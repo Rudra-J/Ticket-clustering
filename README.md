@@ -1,8 +1,7 @@
 # Ticket Clustering Pipeline
 
-Production-grade NLP pipeline that clusters IT support tickets by semantic meaning
-and operational metadata, simulating ITSM issue categorization, routing, and failure
-pattern detection.
+NLP pipeline that clusters IT support tickets by semantic meaning and operational metadata, simulating 
+ITSM issue categorization, routing, and failure pattern detection.
 
 ---
 
